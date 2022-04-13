@@ -1,9 +1,11 @@
 package net.gotify;
 
+import lombok.*;
+
 public class GotifyClient {
 
     @Getter
-    private GofifyService service;
+    private GotifyService service;
 
     /**
      * create a new client for Gotify
