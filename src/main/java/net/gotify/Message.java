@@ -2,6 +2,9 @@ package net.gotify;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Message{
 
 	@JsonProperty("date")
