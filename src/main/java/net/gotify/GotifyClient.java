@@ -1,6 +1,13 @@
 package net.gotify;
 
 import lombok.*;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.MapperFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import feign.Feign;
+import feign.RequestTemplate;
+import feign.jackson.JacksonDecoder;
+import feign.jackson.JacksonEncoder;
 
 public class GotifyClient {
 
